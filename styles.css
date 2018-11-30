@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.form{
+ 	max-width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: 0;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
+    margin-bottom: 0;
+}
+form
+input[type="text"],
+input[type="datetime"],
+input[type="email"],
+input[type="password"],
+select{
+	font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+input[type="submit"],
+button{
+	position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+select{
+	 -webkit-appearance: menulist-button;
+}
+input[type="radio"]{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+  margin-bottom: 10px;
+}
+input[type="radio"]:checked{
+	 background: #40e0d0;
+}
+.inscri{
+	background: #2A88AD;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    border: 1px solid #257C9E;
+    width:450px;
+    padding:30px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin: 40px auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 50px;
+}
+.inscri h1{
+	font: bold 40px 'Bitter', serif;
+	text-align: center;
+}
+a{
+	font: normal 15px 'Bitter', serif;
+	margin-left: 43%;
+	padding-bottom: 50px;
+	color: black;
+}
+#logo{
+	float: right;
+	width: 100px;
+	margin-top: 10px;
+}
+form p, label{
+	font: normal 20px 'Bitter', serif;
+    color: #2A88AD;
+    margin-bottom: 5px;
+
+}
+footer{
+	background: #224d93;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    border: 1px solid #257C9E;
+    width:96%;
+    margin: 0 auto;
+    padding:30px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    height: 20px;
+}
+footer p{
+	padding-top: 20px;
+	float: left;
+	font-weight: bold;
+}
+#header{
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+#header #home{
+  text-align: center;
+  padding: 14px 16px;
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #2196F3;
+  color: white;
+}
+#header input{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+#tweet{
+    background-color: #556b8e;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#tweet input {
+    margin: 5px;
+    width: 430px;
+    margin-left: 30px;
+}
+#tweetimg{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.tweet{
+    border: 3px solid #273347;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.tweet img{
+    width: 300px;
+    margin-left: 20%;
+    padding: 3px 0px;
+}
+.tweet h5{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.tweet p{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+#content{
+    background-color: #556b8e;
+}
+.reply {
+    width: 500px;
+    margin: 10px 0px;
+    margin-left: 35%;
+}
